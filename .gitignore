@@ -1,0 +1,35 @@
+# Datasets (download from Roboflow, see README)
+datasets/
+
+# Test media, detection output and captured frames
+videos/
+output/
+frames/
+esp32_frames/
+
+# Training runs (selected v3 charts are in docs/)
+runs/
+runs_v1/
+runs_v2/
+runs_v3/
+
+# Base YOLO weights (downloaded automatically by Ultralytics)
+/yolo*.pt
+
+# Notes, logs and project report kept locally
+terminal.txt
+Questions.txt
+rapport_projet.md
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Editors / OS
+.vscode/
+.idea/
+.claude/
+desktop.ini
+Thumbs.db
