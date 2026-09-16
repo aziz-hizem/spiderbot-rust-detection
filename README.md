@@ -73,7 +73,6 @@ python train.py
 ## Known limitations
 
 - **False positives on rust-like textures**: dark brown shadows between wooden planks and dark, saturated fabrics have been detected as corrosion. Frames captured from the robot's own camera with `capture_frames.py` are meant to be labeled and added to training to reduce this.
-- The datasets are mostly close-up photos, so accuracy drops on distant or poorly lit surfaces.
 
 ## Credits
 
